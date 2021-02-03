@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Coverage report</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.ba-throttle-debounce.min.js"></script>
+    <script type="text/javascript" src="jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="jquery.hotkeys.js"></script>
+    <script type="text/javascript" src="coverage_html.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(coverage.index_ready);
+    </script>
+</head>
+<body class="indexfile">
+<div id="header">
+    <div class="content">
+        <h1>Coverage report:
+            <span class="pc_cov">59%</span>
+        </h1>
+        <img id="keyboard_icon" src="keybd_closed.png" alt="Show keyboard shortcuts" />
+        <form id="filter_container">
+            <input id="filter" type="text" value="" placeholder="filter..." />
+        </form>
+    </div>
+</div>
+<div class="help_panel">
+    <img id="panel_icon" src="keybd_open.png" alt="Hide keyboard shortcuts" />
+    <p class="legend">Hot-keys on this page</p>
+    <div>
+    <p class="keyhelp">
+        <span class="key">n</span>
+        <span class="key">s</span>
+        <span class="key">m</span>
+        <span class="key">x</span>
+        <span class="key">c</span> &nbsp; change column sorting
+    </p>
+    </div>
+</div>
+<div id="index">
+    <table class="index">
+        <thead>
+            <tr class="tablehead" title="Click to sort">
+                <th class="name left headerSortDown shortkey_n">Module</th>
+                <th class="shortkey_s">statements</th>
+                <th class="shortkey_m">missing</th>
+                <th class="shortkey_x">excluded</th>
+                <th class="right shortkey_c">coverage</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr class="total">
+                <td class="name left">Total</td>
+                <td>1096</td>
+                <td>448</td>
+                <td>0</td>
+                <td class="right" data-ratio="648 1096">59%</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr class="file">
+                <td class="name left"><a href="src_app_Controller_CandidateController_py.html">src\app\Controller\CandidateController.py</a></td>
+                <td>12</td>
+                <td>3</td>
+                <td>0</td>
+                <td class="right" data-ratio="9 12">75%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_app_Controller_Controller_py.html">src\app\Controller\Controller.py</a></td>
+                <td>50</td>
+                <td>14</td>
+                <td>0</td>
+                <td class="right" data-ratio="36 50">72%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_app_Controller_ElectionController_py.html">src\app\Controller\ElectionController.py</a></td>
+                <td>6</td>
+                <td>1</td>
+                <td>0</td>
+                <td class="right" data-ratio="5 6">83%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_app_Controller_PollController_py.html">src\app\Controller\PollController.py</a></td>
+                <td>23</td>
+                <td>4</td>
+                <td>0</td>
+                <td class="right" data-ratio="19 23">83%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_app_Controller_RegionController_py.html">src\app\Controller\RegionController.py</a></td>
+                <td>10</td>
+                <td>3</td>
+                <td>0</td>
+                <td class="right" data-ratio="7 10">70%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_app_Controller___init___py.html">src\app\Controller\__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_app_Models_Candidate_py.html">src\app\Models\Candidate.py</a></td>
+                <td>15</td>
+                <td>1</td>
+                <td>0</td>
+                <td class="right" data-ratio="14 15">93%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_app_Models_Election_py.html">src\app\Models\Election.py</a></td>
+                <td>6</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 6">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_app_Models_JsonEncoder_py.html">src\app\Models\JsonEncoder.py</a></td>
+                <td>4</td>
+                <td>1</td>
+                <td>0</td>
+                <td class="right" data-ratio="3 4">75%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_app_Models_MultiRegionalPoll_py.html">src\app\Models\MultiRegionalPoll.py</a></td>
+                <td>15</td>
+                <td>1</td>
+                <td>0</td>
+                <td class="right" data-ratio="14 15">93%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_app_Models_Policy_py.html">src\app\Models\Policy.py</a></td>
+                <td>11</td>
+                <td>1</td>
+                <td>0</td>
+                <td class="right" data-ratio="10 11">91%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_app_Models_PoliticalParty_py.html">src\app\Models\PoliticalParty.py</a></td>
+                <td>10</td>
+                <td>1</td>
+                <td>0</td>
+                <td class="right" data-ratio="9 10">90%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_app_Models_Poll_py.html">src\app\Models\Poll.py</a></td>
+                <td>21</td>
+                <td>7</td>
+                <td>0</td>
+                <td class="right" data-ratio="14 21">67%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_app_Models_Region_py.html">src\app\Models\Region.py</a></td>
+                <td>11</td>
+                <td>2</td>
+                <td>0</td>
+                <td class="right" data-ratio="9 11">82%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_app_Models_Vote_py.html">src\app\Models\Vote.py</a></td>
+                <td>9</td>
+                <td>4</td>
+                <td>0</td>
+                <td class="right" data-ratio="5 9">56%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_app_Models___init___py.html">src\app\Models\__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_app_Models_dataTransferObjects_CandidateDTO_py.html">src\app\Models\dataTransferObjects\CandidateDTO.py</a></td>
+                <td>8</td>
+                <td>1</td>
+                <td>0</td>
+                <td class="right" data-ratio="7 8">88%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_app_Models_dataTransferObjects_CandidateDetailsDTO_py.html">src\app\Models\dataTransferObjects\CandidateDetailsDTO.py</a></td>
+                <td>11</td>
+                <td>1</td>
+                <td>0</td>
+                <td class="right" data-ratio="10 11">91%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_app_Models_dataTransferObjects_ElectionsDTO_py.html">src\app\Models\dataTransferObjects\ElectionsDTO.py</a></td>
+                <td>13</td>
+                <td>1</td>
+                <td>0</td>
+                <td class="right" data-ratio="12 13">92%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_app_Models_dataTransferObjects_PollDTO_py.html">src\app\Models\dataTransferObjects\PollDTO.py</a></td>
+                <td>37</td>
+                <td>7</td>
+                <td>0</td>
+                <td class="right" data-ratio="30 37">81%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_app_Models_dataTransferObjects_RegionDTO_py.html">src\app\Models\dataTransferObjects\RegionDTO.py</a></td>
+                <td>8</td>
+                <td>1</td>
+                <td>0</td>
+                <td class="right" data-ratio="7 8">88%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_app_Models_dataTransferObjects___init___py.html">src\app\Models\dataTransferObjects\__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_app_Repository_CandidateRepository_py.html">src\app\Repository\CandidateRepository.py</a></td>
+                <td>12</td>
+                <td>4</td>
+                <td>0</td>
+                <td class="right" data-ratio="8 12">67%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_app_Repository_Data_DataGenerator_py.html">src\app\Repository\Data\DataGenerator.py</a></td>
+                <td>97</td>
+                <td>97</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 97">0%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_app_Repository_Data_DataProvider_py.html">src\app\Repository\Data\DataProvider.py</a></td>
+                <td>315</td>
+                <td>59</td>
+                <td>0</td>
+                <td class="right" data-ratio="256 315">81%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_app_Repository_Data___init___py.html">src\app\Repository\Data\__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_app_Repository_PolicyRepository_py.html">src\app\Repository\PolicyRepository.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_app_Repository_PollRepository_py.html">src\app\Repository\PollRepository.py</a></td>
+                <td>49</td>
+                <td>17</td>
+                <td>0</td>
+                <td class="right" data-ratio="32 49">65%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_app_Repository_RegionRepository_py.html">src\app\Repository\RegionRepository.py</a></td>
+                <td>14</td>
+                <td>6</td>
+                <td>0</td>
+                <td class="right" data-ratio="8 14">57%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_app_Repository_Repository_py.html">src\app\Repository\Repository.py</a></td>
+                <td>52</td>
+                <td>14</td>
+                <td>0</td>
+                <td class="right" data-ratio="38 52">73%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_app_Repository___init___py.html">src\app\Repository\__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_app_Service_CandidateService_py.html">src\app\Service\CandidateService.py</a></td>
+                <td>14</td>
+                <td>3</td>
+                <td>0</td>
+                <td class="right" data-ratio="11 14">79%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_app_Service_PollService_py.html">src\app\Service\PollService.py</a></td>
+                <td>56</td>
+                <td>31</td>
+                <td>0</td>
+                <td class="right" data-ratio="25 56">45%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_app_Service_RegionService_py.html">src\app\Service\RegionService.py</a></td>
+                <td>12</td>
+                <td>4</td>
+                <td>0</td>
+                <td class="right" data-ratio="8 12">67%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_app_Service_Service_py.html">src\app\Service\Service.py</a></td>
+                <td>48</td>
+                <td>15</td>
+                <td>0</td>
+                <td class="right" data-ratio="33 48">69%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_app_Service___init___py.html">src\app\Service\__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_app_WebSocketComponent_WebSocketServer_py.html">src\app\WebSocketComponent\WebSocketServer.py</a></td>
+                <td>102</td>
+                <td>102</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 102">0%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_app_WebSocketComponent___init___py.html">src\app\WebSocketComponent\__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_app___init___py.html">src\app\__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="src_app___main___py.html">src\app\__main__.py</a></td>
+                <td>42</td>
+                <td>42</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 42">0%</td>
+            </tr>
+        </tbody>
+    </table>
+    <p id="no_rows">
+        No items found using the specified filter.
+    </p>
+</div>
+<div id="footer">
+    <div class="content">
+        <p>
+            <a class="nav" href="https://coverage.readthedocs.io">coverage.py v5.3</a>,
+            created at 2020-11-04 19:14 +0000
+        </p>
+    </div>
+</div>
+</body>
+</html>
